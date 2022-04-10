@@ -371,6 +371,7 @@ header {
     grid-template-columns: 0.4fr 1fr;
     align-items: center;
     min-height: 100vh;
+    margin-top: 2rem;
 }
 
 .login__container {
@@ -428,10 +429,7 @@ header {
     border-radius: 0;
     text-align: center;
 }
-/* .login__image {
-    width: 50%;
-    margin-left: 10%;
-} */
+
 
 
 
