@@ -433,6 +433,135 @@ header {
     margin-left: 10%;
 } */
 
+/* MEDIAS QUERY */
+@media (max-width: 1028px){
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 4rem 0 3rem;
+    }
+
+    .properties__container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 1rem;
+        padding: 0 10px;
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    }
+
+    .login {
+        grid-template-columns: 0.6fr 1fr;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding: 10px 0;
+    }
+    
+    #menu-icon {
+        display: initial;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--second-color);
+        text-align: center;
+        clip-path: circle(0% at 100% 1%);
+        transition: 0.5s;
+    }
+
+    .navbar a{
+        display: block;
+        margin: 1rem;
+        padding: 20px;
+        color: var(--bg-color);
+    }
+
+    .navbar a:hover {
+        background: var(--main-color);
+        color: var(--bg-color);
+        transition: 0.2s;
+    }
+    #menu:checked ~ .navbar {
+        clip-path: circle(144% at 100% 1%);
+    }
+    .about__text span {
+        font-size: .9rem;
+    }
+    .about__text h2,
+    .heading h2,
+    .newsletter h2{
+        font-size: 1.4rem;
+    }
+
+  
+    
+}
+
+@media (max-width: 638px){
+    .about__text{
+        text-align: center;
+    }
+    .about__img{
+        order: 2;
+    }
+    .login{
+        grid-template-columns: .8fr 1fr;
+        margin-top: 3rem;
+    }
+
+}
+
+@media (max-width: 638px){
+    .login__image {
+        display: none;
+    }
+    .login {
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 638px) {
+    .home__text {
+        padding-left: 14px;
+    }
+    .home__text h1 {
+        font-size: 1.7rem;
+    }
+
+    .about__text h2,
+    .heading h2,
+    .newsletter h2{
+        font-size: 1.2rem;
+    }
+    .properties__container {
+        padding: 0;
+    }
+    .newsletter #email__box {
+        /* width: auto; */
+        width: 140px;
+    }
+
+    .footer{
+        border-radius: 3rem 0 0 0;
+    }
+}
 
 
 
