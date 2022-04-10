@@ -365,6 +365,81 @@ header {
 }
 
 
+/* LOGIN */
+.login {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.login__container h2 {
+    font-size: 1.4rem;
+}
+
+.login__container p {
+    font-size: .9rem;
+}
+
+.login__container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container form span {
+    font-size: .9rem;
+    color: #8a8a8a;
+    margin-bottom: 4px;
+}
+
+.login__container form input {
+    border: 1px solid #8a8a8a;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background: var(--bg-color);
+}
+
+.login__container form .buttom {
+    outline: none;
+    border: none;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: .85rem;
+    font-weight: 500;
+}
+
+.login__container form .buttom:hover {
+    background: #3492fd;
+}
+
+.login__container form a{
+    font-size: .9rem;
+    text-align: right;
+}
+
+.login__container .btn {
+    border-radius: 0;
+    text-align: center;
+}
+/* .login__image {
+    width: 50%;
+    margin-left: 10%;
+} */
+
+
+
+
+
+
+
+
 
 
 
