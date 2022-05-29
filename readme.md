@@ -2,7 +2,7 @@
 <img src="./DesignResponsiveWebHouse.png" title="template create house" />
 
 <div "style =    display: flex;
-    align-items: center; flex-direction: column;" >
+    align-items: center; flex-direction: column; margin-top:0;" >
 <img src="./responsive01.png" title="template create house responsive 02" />
 <img src="./responsive02.png" title="template create house responsive 01" />
 </div>
